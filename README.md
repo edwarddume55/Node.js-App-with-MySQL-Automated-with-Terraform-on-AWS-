@@ -47,7 +47,30 @@ It provisions:
 ## Access the app in your browser:
 
     http://<EC2_PUBLIC_IP>:3000/
+---
+## Local Development (Optional)
+  ## Clone the repo
+```bash
+    git clone https://github.com/verma-kunal/nodejs-mysql.git
+    cd nodejs-mysql
+```
 
+## Create a .env file
+```bash
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASS=
+    DB_NAME=mydb
+    TABLE_NAME=users
+    PORT=3000 
+```
+
+## Install & run locally
+```bash
+    npm install
+    npm run dev
+```
+---
 
 ## Project Structure
     terraform/
